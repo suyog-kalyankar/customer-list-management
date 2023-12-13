@@ -46,6 +46,10 @@ Visit http://localhost:3000 in your browser to view the Customer list Management
 1. Delete actions are available for each row, but only for inactive customers.
 2. Deleting an inactive customer removes them from the list.
 
+### 6. Filter Customer by Industries
+1. Filter customers by single or multi-select industries
+2. Clicking on filter icon near Industry header, opens industry selector modal.
+
 ## Project Structure
 The project structure is organized as follows:
 
