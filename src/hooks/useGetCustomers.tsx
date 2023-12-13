@@ -56,7 +56,7 @@ const useGetCustomers = () => {
       id: uuidv4(),
       isActive,
     };
-    setCustomersList([...customersList, obj]);
+    setCustomersList([obj, ...customersList]);
   };
 
   // returns filtered customers on selection of active/ inctive cheeckbox
