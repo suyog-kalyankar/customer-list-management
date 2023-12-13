@@ -60,5 +60,6 @@ The project structure is organized as follows:
 5. types/: TypeScript type definitions.
 6. constants/: Constants such as action types and labels.
 7. App.tsx: The main application component.
+[screen-capture.webm](https://github.com/suyog-kalyankar/customer-list-management/assets/30463183/c5b8ad5d-fc80-484d-a08c-2d3a62eed92a)
 
 
