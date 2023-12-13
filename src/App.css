@@ -1,10 +1,11 @@
 .App {
   text-align: center;
+  margin: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.action-div {
+  display: flex;
+  gap: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +14,18 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filter-section {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.project-list {
+  display: flex;
+  row-gap: 16;
+  flex-direction: column;
 }
 
 @keyframes App-logo-spin {
